@@ -1,5 +1,6 @@
 OOP C++ Code Template for Nodes
-bash ```
+
+```bash
 #include "rclcpp/rclcpp.hpp"
 
 class MyCustomNode : public rclcpp::Node // MODIFY NAME
@@ -20,7 +21,5 @@ rclcpp::spin(node);
 rclcpp::shutdown();
 return 0;
 }
-
-```
 
 ```
